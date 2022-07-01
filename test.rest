@@ -1,0 +1,28 @@
+GET http://localhost:5000/users
+
+###
+
+GET http://localhost:5000/user/mjopp0@merriam-webster.com
+
+###
+
+POST http://localhost:5000/users/login
+Content-Type: application/json
+
+{
+    "email": "Codetesting@tech.com",
+    "Password": "1c11sjk009"
+}
+
+###
+POST http://localhost:5000/createuser
+Content-Type: application/json
+
+{
+  "id":1001,
+  "first_name":"Bekk ",
+  "last_name":"Tester",
+  "email":"bentester@gmail.com",
+  "gender":"Male",
+  "Password":"uehSLnl"
+}
